@@ -10,7 +10,7 @@ class App {
     initializePusher() {
       Pusher.logToConsole = true;
   
-      this.pusher = new Pusher('0e86220ab0d1dda9ba3e', {
+      this.pusher = new Pusher('APP_KEY', {
         cluster: 'us2',
         encrypted: true
       });
