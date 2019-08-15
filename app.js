@@ -12,6 +12,9 @@ class App {
   
       this.pusher = new Pusher('APP_KEY', {
         cluster: 'us2',
+        appId: 'APP_ID',
+        key: 'APP_KEY',
+        secret: 'APP_SECRET',
         encrypted: true
       });
       this.subscribeToEventChannel();
