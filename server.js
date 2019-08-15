@@ -2,10 +2,10 @@ const stockData = require('./stock.json');
 const Pusher = require('pusher');
 
 var pusher = new Pusher({
-  appId: 'APP_ID',
-  key: 'APP_KEY',
-  secret: 'APP_SECRET',
-  cluster: 'APP_CLUSTER',
+  appId: '843339', //'APP_ID',
+  key: '0e86220ab0d1dda9ba3e', //'APP_KEY',
+  secret: '0ddbda89ca51656bb139', //'APP_SECRET',
+  cluster: 'us2', //'APP_CLUSTER',
   encrypted: true
 });
 
