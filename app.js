@@ -10,11 +10,9 @@ class App {
     initializePusher() {
       Pusher.logToConsole = true;
   
-      this.pusher = new Pusher('APP_KEY', {
+      this.pusher = new Pusher('0e86220ab0d1dda9ba3e', {
         cluster: 'us2',
-        appId: 'APP_ID',
-        key: 'APP_KEY',
-        secret: 'APP_SECRET',
+        appId: '843339',   
         encrypted: true
       });
       this.subscribeToEventChannel();
